@@ -180,7 +180,7 @@ const getLectureByCourseId = async (req, res) => {
                             res.json({
                                           success: true,
                                           message: "Course is here",
-                                          course: course.lectures
+                                          course: course
                             })
 
               }
